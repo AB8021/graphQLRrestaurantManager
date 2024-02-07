@@ -1,0 +1,29 @@
+graphql-compose-mongoose GraphQL-API käyttäen authorizaatiota. 
+
+käytetty dokumentaatiota 
+https://www.npmjs.com/package/graphql-compose-mongoose#updateoneopts-updateoneresolveropts
+
+https://graphql.org/learn/
+
+Virheiden jäljitykseen käytetty ChatGPT-sovellusta
+
+Käynnistys: npm start
+
+Tämän jälkeen localhost:3000/graphql vastaa kutsuihin
+
+seuraavat kutsut käytössä ilman autentikaatiota
+restaurantById
+restaurantOne
+restaurantMany
+registerUser
+authenticateUser
+
+seuraaviin tulee autentikoitua
+restaurantCreate
+restaurantUpdate
+restaurantRemove
+addMenuItem
+updateMenuItem
+removeMenuItem
+
+tarkempaa dokumentaatiota ja esimerkkejä graphql/schema.js tiedostossa
